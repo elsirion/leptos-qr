@@ -2,6 +2,8 @@
 name = "leptos-qr"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "QR Code Component for Leptos"
 
 [dependencies]
 fast_qr = { version = "0.12.5", features = [ "svg", "wasm-bindgen" ] }
