@@ -1,4 +1,4 @@
-# Leptos QR Code Component Library
+# [Leptos](https://leptos.dev/) QR Code Component Library
 
 This library provides a simple QR code component based on [`fast_qr`](https://github.com/erwanvivien/fast_qr). You can customize the pixel shape, color and error correction level.
 
