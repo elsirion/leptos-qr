@@ -523,7 +523,7 @@ dependencies = [
 
 [[package]]
 name = "leptos-qr"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "fast_qr",
  "leptos",
