@@ -1,7 +1,7 @@
 [package]
 name = "leptos-qr"
 version = "0.2.0"
-edition = "2021"
+edition = "2024"
 license = "MIT"
 description = "QR Code Component for Leptos"
 
@@ -9,5 +9,5 @@ description = "QR Code Component for Leptos"
 targets = ["wasm32-unknown-unknown"]
 
 [dependencies]
-fast_qr = { version = "0.12.6", features = ["svg"] }
-leptos = "0.7.0"
+fast_qr = { version = "0.12.7", features = ["svg"] }
+leptos = "0.7.8"

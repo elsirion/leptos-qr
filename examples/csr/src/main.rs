@@ -1,13 +1,13 @@
+use leptos_qr::QrCode;
 use leptos::mount::mount_to_body;
-use leptos::prelude::event_target_value;
-use leptos::prelude::signal;
 use leptos::prelude::ElementChild;
+use leptos::prelude::event_target_value;
 use leptos::prelude::OnAttribute;
 use leptos::prelude::PropAttribute;
 use leptos::prelude::Set;
+use leptos::prelude::signal;
 use leptos::prelude::StyleAttribute;
 use leptos::view;
-use leptos_qr::QrCode;
 
 fn main() {
     console_error_panic_hook::set_once();

@@ -1,14 +1,14 @@
-use fast_qr::convert::svg::SvgBuilder;
-use fast_qr::convert::Builder;
 pub use fast_qr::convert::{Color, Shape};
-use fast_qr::QRBuilder;
 pub use fast_qr::ECL;
+use fast_qr::convert::Builder;
+use fast_qr::convert::svg::SvgBuilder;
+use fast_qr::QRBuilder;
 use leptos::component;
+use leptos::IntoView;
 use leptos::prelude::Get;
 use leptos::prelude::InnerHtmlAttribute;
 use leptos::prelude::Signal;
 use leptos::view;
-use leptos::IntoView;
 
 #[component]
 pub fn QrCode(
